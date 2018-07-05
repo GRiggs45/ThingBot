@@ -1,0 +1,19 @@
+{
+  "name": "ThingBot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "enmap": "^2.6.3",
+    "enmap-level": "^2.1.0",
+    "enmap-mongo": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
