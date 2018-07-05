@@ -3,10 +3,7 @@ const Enmap = require("enmap");
 const fs = require("fs");
 const client = new Discord.Client();
 const config = require("./config.json");
-
-const Enmap = require("enmap");
 const Provider = require("enmap-level");
-const client = new Discord.Client();
 
 client.config = config;
 client.points = new Enmap({provider: new Provider({name: "points", persistent: true})});
